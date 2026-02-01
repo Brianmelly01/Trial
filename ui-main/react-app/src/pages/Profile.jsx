@@ -18,10 +18,10 @@ export default function Profile() {
                             <h1 className="text-3xl font-extrabold">KwameLive</h1>
                             <div className="flex gap-2">
                                 <span className="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs font-bold border border-accent/30 flex items-center gap-1">
-                                    <span className="material-icons text-sm">emoji_events</span> TOP PLAYER
+                                    <span className="material-icons-round text-sm">emoji_events</span> TOP PLAYER
                                 </span>
                                 <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-bold border border-blue-500/30 flex items-center gap-1">
-                                    <span className="material-icons text-sm">verified</span> VERIFIED
+                                    <span className="material-icons-round text-sm">verified</span> VERIFIED
                                 </span>
                             </div>
                         </div>
@@ -29,10 +29,10 @@ export default function Profile() {
                     </div>
                     <div className="flex gap-3 pb-4">
                         <button className="bg-primary text-black font-bold px-6 py-3 rounded-xl hover:opacity-90 transition-opacity flex items-center gap-2">
-                            <span className="material-icons">edit</span> Edit Profile
+                            <span className="material-icons-round">edit</span> Edit Profile
                         </button>
                         <button className="bg-slate-200 dark:bg-white/10 px-4 py-3 rounded-xl hover:bg-slate-300 dark:hover:bg-white/20 transition-colors">
-                            <span className="material-icons">share</span>
+                            <span className="material-icons-round">share</span>
                         </button>
                     </div>
                 </div>
@@ -67,26 +67,26 @@ export default function Profile() {
                     <div className="bg-card-light dark:bg-card-dark p-6 rounded-2xl border border-slate-200 dark:border-white/5 shadow-sm">
                         <div className="flex justify-between items-center mb-4">
                             <h3 className="font-bold text-slate-400 text-xs uppercase tracking-widest">Achievements</h3>
-                            <span className="material-icons text-slate-400 text-sm cursor-pointer">chevron_right</span>
+                            <span className="material-icons-round text-slate-400 text-sm cursor-pointer">chevron_right</span>
                         </div>
                         <div className="grid grid-cols-4 gap-3">
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg flex items-center justify-center group cursor-pointer" title="Tournament Winner">
-                                <span className="material-icons text-accent">emoji_events</span>
+                                <span className="material-icons-round text-accent">emoji_events</span>
                             </div>
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg flex items-center justify-center group cursor-pointer" title="Early Supporter">
-                                <span className="material-icons text-blue-400">rocket_launch</span>
+                                <span className="material-icons-round text-blue-400">rocket_launch</span>
                             </div>
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg flex items-center justify-center group cursor-pointer" title="Blogger">
-                                <span className="material-icons text-purple-400">rate_review</span>
+                                <span className="material-icons-round text-purple-400">rate_review</span>
                             </div>
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg flex items-center justify-center group cursor-pointer" title="Beta Tester">
-                                <span className="material-icons text-emerald-400">bug_report</span>
+                                <span className="material-icons-round text-emerald-400">bug_report</span>
                             </div>
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg flex items-center justify-center group cursor-pointer" title="Speed Runner">
-                                <span className="material-icons text-rose-400">timer</span>
+                                <span className="material-icons-round text-rose-400">timer</span>
                             </div>
                             <div className="aspect-square bg-slate-100 dark:bg-white/5 rounded-lg border border-dashed border-slate-300 dark:border-white/10 flex items-center justify-center">
-                                <span className="material-icons text-slate-300 dark:text-white/20 text-sm">lock</span>
+                                <span className="material-icons-round text-slate-300 dark:text-white/20 text-sm">lock</span>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export default function Profile() {
                     <section>
                         <div className="flex items-center justify-between mb-4">
                             <h2 className="text-xl font-extrabold flex items-center gap-2">
-                                <span className="material-icons text-primary">rocket_launch</span>
+                                <span className="material-icons-round text-primary">rocket_launch</span>
                                 Supported on Launchpad
                             </h2>
                             <Link className="text-sm text-primary font-bold hover:underline" to="/launchpad">View All</Link>
@@ -140,7 +140,7 @@ export default function Profile() {
                                             <h4 className="font-bold text-white">Legend of the Nile</h4>
                                         </div>
                                         <button className="bg-primary/20 hover:bg-primary/30 text-primary p-2 rounded-lg transition-colors">
-                                            <span className="material-icons">play_arrow</span>
+                                            <span className="material-icons-round">play_arrow</span>
                                         </button>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ export default function Profile() {
                                             <h4 className="font-bold text-white">CyberStreet Neo</h4>
                                         </div>
                                         <button className="bg-accent/20 hover:bg-accent/30 text-accent p-2 rounded-lg transition-colors">
-                                            <span className="material-icons">favorite</span>
+                                            <span className="material-icons-round">favorite</span>
                                         </button>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ export default function Profile() {
                     <section>
                         <div className="flex items-center justify-between mb-4">
                             <h2 className="text-xl font-extrabold flex items-center gap-2">
-                                <span className="material-icons text-primary">forum</span>
+                                <span className="material-icons-round text-primary">forum</span>
                                 Community Posts
                             </h2>
                         </div>
@@ -185,15 +185,15 @@ export default function Profile() {
                                         </div>
                                         <div className="flex items-center gap-6">
                                             <button className="flex items-center gap-1.5 text-slate-500 hover:text-rose-500 transition-colors">
-                                                <span className="material-icons text-xl">favorite_border</span>
+                                                <span className="material-icons-round text-xl">favorite_border</span>
                                                 <span className="text-sm font-bold">128</span>
                                             </button>
                                             <button className="flex items-center gap-1.5 text-slate-500 hover:text-primary transition-colors">
-                                                <span className="material-icons text-xl">chat_bubble_outline</span>
+                                                <span className="material-icons-round text-xl">chat_bubble_outline</span>
                                                 <span class="text-sm font-bold">24</span>
                                             </button>
                                             <button className="flex items-center gap-1.5 text-slate-500 hover:text-blue-400 transition-colors">
-                                                <span className="material-icons text-xl">share</span>
+                                                <span className="material-icons-round text-xl">share</span>
                                             </button>
                                         </div>
                                     </div>
@@ -211,11 +211,11 @@ export default function Profile() {
                                         <p className="text-slate-700 dark:text-slate-300">Started dev logs for my new prototype "Neon Ghost". Feedback welcome on the color palette! 🎨🎮</p>
                                         <div className="flex items-center gap-6 mt-4">
                                             <button className="flex items-center gap-1.5 text-slate-500 hover:text-rose-500 transition-colors">
-                                                <span className="material-icons text-xl">favorite_border</span>
+                                                <span className="material-icons-round text-xl">favorite_border</span>
                                                 <span className="text-sm font-bold">85</span>
                                             </button>
                                             <button className="flex items-center gap-1.5 text-slate-500 hover:text-primary transition-colors">
-                                                <span className="material-icons text-xl">chat_bubble_outline</span>
+                                                <span className="material-icons-round text-xl">chat_bubble_outline</span>
                                                 <span className="text-sm font-bold">12</span>
                                             </button>
                                         </div>
@@ -267,7 +267,7 @@ export default function Profile() {
 
                     <div className="bg-primary p-6 rounded-2xl shadow-lg relative overflow-hidden group cursor-pointer">
                         <div className="absolute -right-4 -top-4 opacity-20">
-                            <span className="material-icons text-9xl text-black">trophy</span>
+                            <span className="material-icons-round text-9xl text-black">trophy</span>
                         </div>
                         <div className="relative z-10">
                             <h3 className="text-black font-extrabold text-lg mb-1 leading-tight">Next Challenge: Mystic Falls</h3>
@@ -280,7 +280,7 @@ export default function Profile() {
                         <h3 className="font-bold text-slate-400 text-xs uppercase tracking-widest mb-4">Learning Progress</h3>
                         <div className="flex items-center gap-4 mb-4">
                             <div className="w-12 h-12 bg-slate-100 dark:bg-white/5 rounded-xl flex items-center justify-center">
-                                <span className="material-icons text-primary">code</span>
+                                <span className="material-icons-round text-primary">code</span>
                             </div>
                             <div>
                                 <div className="text-sm font-bold">Unreal Engine Basics</div>

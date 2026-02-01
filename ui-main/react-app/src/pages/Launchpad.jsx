@@ -16,11 +16,11 @@ export default function Launchpad() {
                     <p className="text-slate-300 text-lg mb-8 line-clamp-2">Embark on an epic journey through ancient sands. A strategic RPG where your choices shape the fate of empires. Experience stunning visuals and a deep crafting system.</p>
                     <div className="flex items-center gap-4">
                         <button className="px-8 py-4 bg-primary hover:bg-yellow-500 text-black font-bold rounded-xl flex items-center gap-2 transition-all transform hover:scale-105 active:scale-95 shadow-lg gold-glow">
-                            <span className="material-icons-outlined">play_circle_filled</span>
+                            <span className="material-icons-round">play_circle_filled</span>
                             Play Demo
                         </button>
                         <button className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl backdrop-blur-md border border-white/20 transition-all flex items-center gap-2">
-                            <span className="material-icons-outlined">favorite</span>
+                            <span className="material-icons-round">favorite</span>
                             Support Dev
                         </button>
                         <div className="ml-auto flex items-center gap-6">
@@ -42,7 +42,7 @@ export default function Launchpad() {
                     <div className="glass-effect rounded-2xl p-6 border-white/5">
                         <div className="flex items-center justify-between mb-6">
                             <h3 className="font-display font-bold text-lg text-white">Trending Projects</h3>
-                            <span className="material-icons-outlined text-slate-500 cursor-pointer">more_horiz</span>
+                            <span className="material-icons-round text-slate-500 cursor-pointer">more_horiz</span>
                         </div>
                         <div className="space-y-5">
                             <div className="flex items-center gap-3 group cursor-pointer">
@@ -97,7 +97,7 @@ export default function Launchpad() {
                                     <div className="w-8 h-8 rounded-full bg-slate-700"></div>
                                     <span className="text-sm text-slate-300">KingKayo</span>
                                 </div>
-                                <span className="material-icons-outlined text-primary text-sm">emoji_events</span>
+                                <span className="material-icons-round text-primary text-sm">emoji_events</span>
                             </div>
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-3">
@@ -105,7 +105,7 @@ export default function Launchpad() {
                                     <div className="w-8 h-8 rounded-full bg-slate-700"></div>
                                     <span className="text-sm text-slate-300">ZeeBlast</span>
                                 </div>
-                                <span className="material-icons-outlined text-slate-500 text-sm">emoji_events</span>
+                                <span className="material-icons-round text-slate-500 text-sm">emoji_events</span>
                             </div>
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-3">
@@ -113,7 +113,7 @@ export default function Launchpad() {
                                     <div className="w-8 h-8 rounded-full bg-slate-700"></div>
                                     <span className="text-sm text-slate-300">NalaPro</span>
                                 </div>
-                                <span className="material-icons-outlined text-slate-600 text-sm">emoji_events</span>
+                                <span className="material-icons-round text-slate-600 text-sm">emoji_events</span>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ export default function Launchpad() {
                 <div className="col-span-12 lg:col-span-9 space-y-8">
                     <div className="flex items-center justify-between">
                         <h2 className="text-2xl font-display font-bold text-white flex items-center gap-3">
-                            <span className="material-icons-outlined text-secondary">explore</span>
+                            <span className="material-icons-round text-secondary">explore</span>
                             Explore Upcoming Indies
                         </h2>
                         <div className="flex items-center gap-3">
@@ -140,7 +140,7 @@ export default function Launchpad() {
                                 <img alt="Neon Velocity" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfHJrRHLVoYqgNoyGn0LFrjTaXUTaJ9KSuU8BH7aHQMHPXqTQJUCCwFq4sDu3apZaDIYyAiU2uXXjYRRzXoJYlvsdfcI1ygtT-TEXzr3DMFhYQ1ciIk40fRzQ29lieSKIqYGJeCRcbiGr9xyikR9q6q1DCakPBiRbS0_FeepyNjUFnzt6ai05urBqtSLHerBh3TFfPemm4J4xfaG8dP_IfNFQB_k7B3uiieCvA2yzyUPjNueIrKWlh3wVszJC-JNek2mzCkKZSym2J" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                     <button className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-black">
-                                        <span className="material-icons-outlined">play_arrow</span>
+                                        <span className="material-icons-round">play_arrow</span>
                                     </button>
                                 </div>
                                 <div className="absolute top-4 left-4">
@@ -154,7 +154,7 @@ export default function Launchpad() {
                                         <p className="text-xs text-slate-500 mb-4">Developed by <span className="text-slate-300">Luminous Studios</span></p>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded">
-                                        <span className="material-icons-outlined text-primary text-xs">star</span>
+                                        <span className="material-icons-round text-primary text-xs">star</span>
                                         <span className="text-xs font-bold text-white">4.9</span>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ export default function Launchpad() {
                                         <div className="w-8 h-8 rounded-full border-2 border-card-dark bg-slate-500 flex items-center justify-center text-[10px] text-white font-bold">+12</div>
                                     </div>
                                     <button className="px-5 py-2 bg-white/5 hover:bg-white/10 text-white text-xs font-bold rounded-lg border border-white/10 transition-colors flex items-center gap-2">
-                                        <span className="material-icons-outlined text-sm">how_to_reg</span>
+                                        <span className="material-icons-round text-sm">how_to_reg</span>
                                         Vote for Dev
                                     </button>
                                 </div>
@@ -178,7 +178,7 @@ export default function Launchpad() {
                                 <img alt="Shadow Weaver" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5h7HSBpUc-AEl6xRgY8Sg0nayhmI_SHT0tDp_Aq1dCYMKkXRWPW7jKnKiJpVqJdbj1VzAcJNcGV0jFAfeqdpss3YbgmeFJYkUj04W0mIWR2TFpibFYe2l9SpHN89QRiMxzX1CxnSmQJPVM11R45KTWqonU3KptyhzWwp7Rt9wpJy0KCOy5GQ5cmtT3KQL8wZBKQYbmw_V7Cuo6I-6e-IKH9xdHESb2aJVv-YyDAHJ6dkxlV59jMD-OSwTqdC2lcQg5CbgFoBjnNaJ" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                     <button className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-black">
-                                        <span className="material-icons-outlined">play_arrow</span>
+                                        <span className="material-icons-round">play_arrow</span>
                                     </button>
                                 </div>
                                 <div className="absolute top-4 left-4">
@@ -192,7 +192,7 @@ export default function Launchpad() {
                                         <p className="text-xs text-slate-500 mb-4">Developed by <span className="text-slate-300">Midnight Games</span></p>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded">
-                                        <span className="material-icons-outlined text-primary text-xs">star</span>
+                                        <span className="material-icons-round text-primary text-xs">star</span>
                                         <span className="text-xs font-bold text-white">4.7</span>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@ export default function Launchpad() {
                                         <div className="w-8 h-8 rounded-full border-2 border-card-dark bg-slate-500 flex items-center justify-center text-[10px] text-white font-bold">+45</div>
                                     </div>
                                     <button className="px-5 py-2 bg-white/5 hover:bg-white/10 text-white text-xs font-bold rounded-lg border border-white/10 transition-colors flex items-center gap-2">
-                                        <span className="material-icons-outlined text-sm">how_to_reg</span>
+                                        <span className="material-icons-round text-sm">how_to_reg</span>
                                         Vote for Dev
                                     </button>
                                 </div>
@@ -216,7 +216,7 @@ export default function Launchpad() {
                                 <img alt="Bot Protocol" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeRiQb8x_CJ-nqn_n9-LeSr8Amoz-_sv20pj91b49PajCF28AF_RS2n82iueanwlY-jasC2wV-pZCkjI3qwEarv5Cj3rWsd8ge5I8Qa94-BraxVm_yWyquMNcAzHH7QzeVT-y1FFzesmtGGJB0GG87RpLEzMcWwVZy9g1wYWIt1GStgKF1Y5vzWvpPpHRfKJJ53Fx84DcPth19z9M-JF8uEwNyBuCFItWz6ZLDe6IukwXkZi8dIv1PZqCPIX1Jq2YLIbYl4IbSDy4i" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                     <button className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-black">
-                                        <span className="material-icons-outlined">play_arrow</span>
+                                        <span className="material-icons-round">play_arrow</span>
                                     </button>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@ export default function Launchpad() {
                                         <p className="text-xs text-slate-500 mb-4">Developed by <span className="text-slate-300">Neural Network</span></p>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded">
-                                        <span className="material-icons-outlined text-primary text-xs">star</span>
+                                        <span className="material-icons-round text-primary text-xs">star</span>
                                         <span className="text-xs font-bold text-white">4.5</span>
                                     </div>
                                 </div>
@@ -239,7 +239,7 @@ export default function Launchpad() {
                                         <div className="w-8 h-8 rounded-full border-2 border-card-dark bg-slate-500 flex items-center justify-center text-[10px] text-white font-bold">+8</div>
                                     </div>
                                     <button className="px-5 py-2 bg-white/5 hover:bg-white/10 text-white text-xs font-bold rounded-lg border border-white/10 transition-colors flex items-center gap-2">
-                                        <span className="material-icons-outlined text-sm">how_to_reg</span>
+                                        <span className="material-icons-round text-sm">how_to_reg</span>
                                         Vote for Dev
                                     </button>
                                 </div>
@@ -251,7 +251,7 @@ export default function Launchpad() {
                                 <img alt="Pixel Frontier" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9R0Kxj9L0zVBYKLvFOOkw3TUE_ulPPqe-KksXH1lpmZ2OJKrE5iNd1UFm27NLY-580EcumbZJdE92gfvECoTJ4hITFSPJgFsqt05j6RLEysqYt4JqZMEtFqO5DDuGA1a9cA3nL1Y_GvYje_Xn5ytopqC88b12ee8dB0T7kpZtBYRuhv8i3JeDtDrlt5YfIVnNVurhP8tEkYqLu9mmdHhIBezk8YBHnnacD9neqK5B6SA67pbYgbv3wB90e8UIF2gv7Eq2a8rsbpSj" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                                     <button className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-black">
-                                        <span className="material-icons-outlined">play_arrow</span>
+                                        <span className="material-icons-round">play_arrow</span>
                                     </button>
                                 </div>
                                 <div className="absolute top-4 left-4">
@@ -265,7 +265,7 @@ export default function Launchpad() {
                                         <p className="text-xs text-slate-500 mb-4">Developed by <span className="text-slate-300">Retro Vibe</span></p>
                                     </div>
                                     <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded">
-                                        <span className="material-icons-outlined text-primary text-xs">star</span>
+                                        <span className="material-icons-round text-primary text-xs">star</span>
                                         <span className="text-xs font-bold text-white">5.0</span>
                                     </div>
                                 </div>
@@ -277,7 +277,7 @@ export default function Launchpad() {
                                         <div className="w-8 h-8 rounded-full border-2 border-card-dark bg-slate-500 flex items-center justify-center text-[10px] text-white font-bold">+156</div>
                                     </div>
                                     <button className="px-5 py-2 bg-white/5 hover:bg-white/10 text-white text-xs font-bold rounded-lg border border-white/10 transition-colors flex items-center gap-2">
-                                        <span className="material-icons-outlined text-sm">how_to_reg</span>
+                                        <span className="material-icons-round text-sm">how_to_reg</span>
                                         Vote for Dev
                                     </button>
                                 </div>

@@ -10,11 +10,11 @@ export default function Learning() {
                 </div>
                 <div className="flex gap-3">
                     <div className="relative">
-                        <span className="material-icons absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-sm">search</span>
+                        <span className="material-icons-round absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-sm">search</span>
                         <input className="bg-card-dark border-white/10 rounded-lg pl-10 pr-4 py-2 text-sm focus:ring-primary focus:border-primary w-64 text-white" placeholder="Search courses..." type="text" />
                     </div>
                     <button className="flex items-center gap-2 bg-card-dark border border-white/10 px-4 py-2 rounded-lg text-sm hover:bg-white/5 transition-colors">
-                        <span className="material-icons text-sm">tune</span> Filter
+                        <span className="material-icons-round text-sm">tune</span> Filter
                     </button>
                 </div>
             </header>
@@ -22,7 +22,7 @@ export default function Learning() {
             <section className="mb-12">
                 <div className="flex items-center justify-between mb-6">
                     <h2 className="text-xl font-display font-bold flex items-center gap-2">
-                        <span className="material-icons text-primary">history</span> Continue Learning
+                        <span className="material-icons-round text-primary">history</span> Continue Learning
                     </h2>
                     <a className="text-sm text-primary hover:underline" href="#">View all active</a>
                 </div>
@@ -31,7 +31,7 @@ export default function Learning() {
                         <div className="sm:w-48 h-48 sm:h-auto overflow-hidden relative">
                             <img alt="Game Dev Course" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa931O4Q4f3VwzFMfbXmUDq50kwwsOv_-ec_cvbAFikhaIX3ERxqK05Ry5Wk8sP9EX_dNf3Qa_N7F7qfrP8T2wE3KrzGPgttaw_qZrfrTcjCCMrcfJRcL5BCWf2egOe_0SYzojOAx1gKX2Vrh8O_1DYEPSKRfoJtwmP4GVifj4lw3gBLGM9EI1m_jP1s1upa4UPkqiYppkf9_Fm8E-E-taRtOPFKNMneq0TsB2BEWoZdm9jrE8xi8U1axARiJy3B-ohsnW977sV7Ot" />
                             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                <span className="material-icons text-5xl text-white">play_circle_filled</span>
+                                <span className="material-icons-round text-5xl text-white">play_circle_filled</span>
                             </div>
                         </div>
                         <div className="p-6 flex-1 flex flex-col justify-between">
@@ -48,7 +48,7 @@ export default function Learning() {
                                     <div className="bg-primary h-full rounded-full progress-bar-glow" style={{ width: "65%" }}></div>
                                 </div>
                                 <button className="w-full bg-primary text-background-dark font-bold py-2 rounded-lg text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
-                                    <span className="material-icons text-sm">play_arrow</span> Resume Session
+                                    <span className="material-icons-round text-sm">play_arrow</span> Resume Session
                                 </button>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function Learning() {
                         <div className="sm:w-48 h-48 sm:h-auto overflow-hidden relative">
                             <img alt="Streaming Course" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7ijSWsG6ivg82lIIXpgMTvzhLegKQBIkikqM5xCKecc-Z5zSBNE1hIvhf4NB290scwrbWqr-XGNuOfW3C_LuXf6YeYVOQPfdXkkhD0uLIy5qavQZ35f22h7xooLEFyxa547m9Vqv236ujpPCirBPCVg3u-HKUT5Wu-o88pxNPo4Vp0zTe3STQtz00hCj_61XirQt5nqn6Sj7vFqpo19ShT50RsYv7ru_dYYvUUFIsxSBlGrRcozEbtErFJnYE6lCoQYS5-PnkxqV0" />
                             <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                <span className="material-icons text-5xl text-white">play_circle_filled</span>
+                                <span className="material-icons-round text-5xl text-white">play_circle_filled</span>
                             </div>
                         </div>
                         <div className="p-6 flex-1 flex flex-col justify-between">
@@ -75,7 +75,7 @@ export default function Learning() {
                                     <div className="bg-primary h-full rounded-full progress-bar-glow" style={{ width: "20%" }}></div>
                                 </div>
                                 <button className="w-full bg-white/5 text-white border border-white/10 font-bold py-2 rounded-lg text-sm hover:bg-white/10 transition-colors flex items-center justify-center gap-2">
-                                    <span className="material-icons text-sm">play_arrow</span> Resume Session
+                                    <span className="material-icons-round text-sm">play_arrow</span> Resume Session
                                 </button>
                             </div>
                         </div>
@@ -91,8 +91,8 @@ export default function Learning() {
                             <p className="text-xs text-slate-500 mt-1">Start your journey from zero to creator.</p>
                         </div>
                         <div className="flex gap-2">
-                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons text-sm">chevron_left</span></button>
-                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons text-sm">chevron_right</span></button>
+                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons-round text-sm">chevron_left</span></button>
+                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons-round text-sm">chevron_right</span></button>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -105,11 +105,11 @@ export default function Learning() {
                                 <h3 className="font-bold text-sm mb-1 group-hover:text-primary transition-colors">C# Scripting for Unity 3D</h3>
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="flex text-primary">
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star_half</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star_half</span>
                                     </div>
                                     <span className="text-[10px] text-slate-500">(1.2k)</span>
                                 </div>
@@ -129,11 +129,11 @@ export default function Learning() {
                                 <h3 className="font-bold text-sm mb-1 group-hover:text-primary transition-colors">3D Asset Creation: Blender</h3>
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="flex text-primary">
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
                                     </div>
                                     <span className="text-[10px] text-slate-500">(856)</span>
                                 </div>
@@ -153,11 +153,11 @@ export default function Learning() {
                                 <h3 className="font-bold text-sm mb-1 group-hover:text-primary transition-colors">Game Logic &amp; State Mgmt</h3>
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="flex text-primary">
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star_outline</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star_outline</span>
                                     </div>
                                     <span className="text-[10px] text-slate-500">(432)</span>
                                 </div>
@@ -177,11 +177,11 @@ export default function Learning() {
                                 <h3 className="font-bold text-sm mb-1 group-hover:text-primary transition-colors">UI Design for Mobile Games</h3>
                                 <div className="flex items-center gap-2 mb-3">
                                     <div className="flex text-primary">
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
-                                        <span className="material-icons text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
+                                        <span className="material-icons-round text-[12px]">star</span>
                                     </div>
                                     <span className="text-[10px] text-slate-500">(2.1k)</span>
                                 </div>
@@ -201,8 +201,8 @@ export default function Learning() {
                             <p className="text-xs text-slate-500 mt-1">Build your brand and dominate the arena.</p>
                         </div>
                         <div className="flex gap-2">
-                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons text-sm">chevron_left</span></button>
-                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons text-sm">chevron_right</span></button>
+                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons-round text-sm">chevron_left</span></button>
+                            <button className="p-2 bg-card-dark rounded-full hover:bg-white/5"><span className="material-icons-round text-sm">chevron_right</span></button>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -210,7 +210,7 @@ export default function Learning() {
                             <div className="aspect-video relative">
                                 <img alt="Twitch Gear" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMxWEUilzfS88e5MvRLLsgPbPK8W_mLXkyPiESBVsT5PWsx0db2hSfvNNU7kW8y8fdI_-kshg1qxQJloILe33OtE3rWwz8iJ0Lq1inoItxAKw5ykOXzGow_k0C0Lh7w0NjGmcjZFWJaF2W0FrZxPwPkYr2BQkAZNR-wh9KoQvsQYEs92oOBNY6dswIGpo1qMpdSRC95MR7N5TtPBks0h4lclFOZW635fbnNKOjV4Id7uElhxIQPul7irM3WpsYScBCgHntn8UQKM2M" />
                                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                    <span className="material-icons text-white text-4xl">play_circle</span>
+                                    <span className="material-icons-round text-white text-4xl">play_circle</span>
                                 </div>
                             </div>
                             <div className="p-4">
@@ -298,7 +298,7 @@ export default function Learning() {
                                 <div className="h-4 w-3/4 bg-slate-800 rounded"></div>
                                 <div className="h-4 w-1/2 bg-slate-800 rounded"></div>
                                 <div className="h-24 w-full bg-slate-800/50 rounded flex items-center justify-center">
-                                    <span className="material-icons text-primary/40 text-4xl">rocket_launch</span>
+                                    <span className="material-icons-round text-primary/40 text-4xl">rocket_launch</span>
                                 </div>
                                 <div className="h-4 w-full bg-slate-800 rounded"></div>
                             </div>
